@@ -23,16 +23,20 @@ https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
 Classfication
 
 #### Results
-What did your research find?
+Findings:
+Trained the data on the models = ['Decision Tree', 'Random Forest', 'Tuned Decision Tree', 'Tuned Random Forest', 'Decision Tree (Over)', 'Random Forest (Over)', 'KNN', 'SVM']
 
-#### Next steps
-What suggestions do you have for next steps?
+Random Forest, SVM and Decision tree performed relatively good and almost the same.
 
-#### Outline of project
+Factors that contributed majorly to the prediction class are :
+1. age: age in years
+2. cp: chest pain type
+3. chol: serum cholestoral in mg/dl
+4. thalach: maximum heart rate achieved
+5. number of major vessels (0-3) colored by flourosopy
+6. hal: 0 = normal; 1 = fixed defect; 2 = reversable defectand the label
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
-
-
-##### Contact and Further Information
+Plots avaliable for reference:
+1. Model Performnce comparison.
+2. Data distribution and analysis
+3. Feature Importance from various models.
